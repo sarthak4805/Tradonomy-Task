@@ -323,6 +323,33 @@ nav input {
   justify-items: center;
   grid-gap: 4rem;
 }
+.Allproducts-filter {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 8rem 1rem;
+  flex-wrap: wrap;
+}
+.Allproducts-filter button {
+  border: 1px solid #d9d9d9;
+  background-color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  font-weight: 600;
+  color: #666666;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.Allproducts-filter button.active,
+.Allproducts-filter button:hover {
+  background-color: #212121;
+  border-color: #212121;
+  color: white;
+}
+.Allproducts-empty {
+  margin: 2rem 8rem;
+  font-weight: 600;
+  color: #666666;
+}
 .Allproduct-card {
   width: 250px;
 }
